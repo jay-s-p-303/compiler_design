@@ -1,5 +1,17 @@
 {
     "code-runner.executorMap": {
         "c": "clear && cd $dir && gcc $fileName -o $fileNameWithoutExt.exe && $dir$fileNameWithoutExt.exe",
-    }
+    },
+    "code-runner.runInTerminal": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/*.crswap": true,
+        "**/*.exe": true,
+    },
+    "code-runner.preserveFocus": false
 }
