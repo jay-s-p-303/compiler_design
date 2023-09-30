@@ -29,7 +29,7 @@ void main()
                     str[i++] = ch;
                 }
                 str[i] = '\0';
-                printf("Single line comment: ```\033[0;32m%s\033[0m```\n", str);
+                printf("Single line comment: %s\n", str);
                 i = 0;
             }
             else if (ch == '*')
@@ -48,7 +48,7 @@ void main()
                     str[i++] = ch;
                 }
                 str[i] = '\0';
-                printf("Multi line comment: ```\033[0;32m%s\033[0m```\n", str);
+                printf("Multi line comment: %s\n", str);
                 i = 0;
             }
         }

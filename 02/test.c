@@ -4,8 +4,8 @@
 
 int main()
 {
-    /* 1. this is multi line comments */
-    /* 2. this
+    /* this is multi line comments */
+    /* this
      is
       again
        multi
