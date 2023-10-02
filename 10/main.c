@@ -1,6 +1,3 @@
-### 10. Demonstrate a program to check whether Left factoring is possible on given statement.
-
-```c
 #include <stdio.h>
 #include <string.h>
 
@@ -35,15 +32,3 @@ void main()
     printf("A -> %s\n", A);
     printf("C -> %s/%s\n", S1, S2);
 }
-```
-
-<br>
-
-##### *Output* :-
-
-```
-Enter A[P1] -> abM
-Enter A[P2] -> abA
-A -> ab
-C -> M/A
-```

@@ -1,6 +1,3 @@
-### 12. Demonstrate a C program for constructing recursive descent parsing.
-
-```c
 #include <stdio.h>
 #include <string.h>
 
@@ -137,37 +134,3 @@ int F()
     else
         return FAILED;
 }
-```
-
-<br>
-
-##### *Output* :-
-
-```
-Enter the string : i+(i+i)*i
-
-Input      Action
---------------------------------
-i+(i+i)*i        E -> T E'
-i+(i+i)*i        T -> F T'
-+(i+i)*i         F ->i
-+(i+i)*i         T' -> $
-+(i+i)*i         E' -> + T E'
-(i+i)*i          T -> F T'
-(i+i)*i          F -> ( E )
-i+i)*i           E -> T E'
-i+i)*i           T -> F T'
-+i)*i            F ->i
-+i)*i            T' -> $
-+i)*i            E' -> + T E'
-i)*i             T -> F T'
-)*i              F ->i
-)*i              T' -> $
-)*i              E' -> $
-*i               T' -> * F T'
-                 F ->i
-                 T' -> $
-                 E' -> $
---------------------------------
-String is successfully parsed
-```

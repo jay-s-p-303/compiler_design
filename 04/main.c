@@ -40,6 +40,30 @@ void main()
         else
             printf("Assignment");
         break;
+    case '&':
+        if (c[1] == '&')
+            printf("Logical AND");
+        else
+            printf("Bitwise AND");
+        break;
+    case '|':
+        if (c[1] == '|')
+            printf("Logical OR");
+        else
+            printf("Bitwise OR");
+        break;
+    case '!':
+        if (c[1] == '=')
+            printf("Not equal");
+        else
+            printf("Logical NOT");
+        break;
+    case '^':
+        printf("Bitwise XOR");
+        break;
+    case '~':
+        printf("Bitwise NOT");
+        break;
     default:
         printf("Invalid operator");
     }

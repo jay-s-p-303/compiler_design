@@ -1,6 +1,3 @@
-### 11. Demonstrate a C program to implement operator precedence parsing.
-
-```c
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -40,25 +37,3 @@ void main()
     else
         printf("Not operator grammar\n");
 }
-```
-
-<br>
-
-##### *Output* :-
-
-```
-Enter the no of productions: 3
-Enter the productions: 
-A=A*A
-B=AA
-A=$
-Not operator grammar
-```
-
-```
-Enter the no of productions: 2
-Enter the productions: 
-A=A/A 
-B=A+A
-Operator grammar
-```
