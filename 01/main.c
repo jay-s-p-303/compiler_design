@@ -15,18 +15,11 @@ int main()
   scanf("%s", input);
 
   for (i = 0; i < 32; i++)
-  {
     if (strcmp(input, keywords[i]) == 0)
-    {
       flag = 1;
-    }
-  }
+
   if (flag == 1)
-  {
     printf("%s is a keyword.", input);
-  }
   else
-  {
     printf("%s is not a keyword.", input);
-  }
 }

@@ -48,12 +48,12 @@ int main()
 Enter the input: // ok 
 Single line comment
 ```
-
+---
 ```
 Enter the input: /* ok */
 Multiline comment
 ```
-
+---
 ```
 Enter the input: ok
 Not a comment
